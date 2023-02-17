@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contain {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contain:first-child {
+  text-align: center;
+}
+
+.auto-form {
+  display: inline-block;
+  margin: auto;
+  padding: 2rem;
+  background-color: darkcyan;
+  border-radius: 5px;
+  text-align: right;
+}
+.field input {
+  border: 0;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 10px;
+  color: rgb(110, 207, 207);
+  background-color: rgb(138, 0, 138);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: cadetblue;
+  transition: 0.3s;
+}
+
+.field:last-child {
+  text-align: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* modal */
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(34, 47, 95, 0.445);
+  display: none;
+}
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: teal;
+  margin: auto;
+  text-align: center;
+}
+.close {
+  text-align: end;
+}
